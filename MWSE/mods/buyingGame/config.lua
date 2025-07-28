@@ -1424,9 +1424,9 @@ local defaultConfig = {
         },
 
         cyrodimp = {
-                potion_cyro_brandy_01 = true,
-                Potion_Cyro_Whiskey_01 = true,
-                T_IngFlor_Cabbage_01 = true, 
+		potion_cyro_brandy_01 = true,
+		Potion_Cyro_Whiskey_01 = true,
+		T_IngFlor_Cabbage_01 = true, 
 		["imperial broadsword"] = true,
 		["imperial netch blade"] = true,
 		["imperial shortsword"] = true,
@@ -1452,7 +1452,7 @@ local defaultConfig = {
         },
 
         nordimp = {
-                potion_nord_mead = true,
+		potion_nord_mead = true,
 		["BM bear boots"] = true,
 		["BM bear cuirass"] = true,
 		["BM bear greaves"] = true,
@@ -1513,13 +1513,13 @@ local defaultConfig = {
         enchanted = {},
         
         soulgem = {
-                Misc_SoulGem_Petty = true,
-                Misc_SoulGem_Lesser = true,
-                Misc_SoulGem_Common = true,
-                Misc_SoulGem_Greater = true,
-                Misc_SoulGem_Grand = true,
-                Misc_SoulGem_Azura = true,
-                AB_Misc_SoulGemBlack = true,
+		Misc_SoulGem_Petty = true,
+		Misc_SoulGem_Lesser = true,
+		Misc_SoulGem_Common = true,
+		Misc_SoulGem_Greater = true,
+		Misc_SoulGem_Grand = true,
+		Misc_SoulGem_Azura = true,
+		AB_Misc_SoulGemBlack = true,
         }
 }
 
@@ -1759,18 +1759,18 @@ addCategoryToRegionExport("daedra", {"Grazelands Region", "Azura's Coast Region"
 addCategoryToRegionExport("dwemer", {"Molag Amur Region", "Boethiah's Spine Region", "Sheogorad Region", "Helnim"})
 addCategoryToRegionExport("sea", {"Aimrah", "Idathren", "Hlan Oek", "Bitter Coast Region", "Azura's Coast Region", "Sheogorad Region", "Padomaic Ocean Region", "Sea of Ghosts Region", "Ascadian Bluffs Region", "Telvanni Isles Region", "Hla Oad", "Gnaar Mok", "Dagon Fel", "Stirk", "Helnim", "Firewatch", "Nivalis", "Anvil", "Charach"})
 addCategoryToRegionExport("undead", {"Necrom", "Sacred Lands Region", "Aranyon Pass Region", "Roa Dyr"})
-addCategoryToRegionExport("food", {"Aimrah", "Ascadian Isles Region", "Pelagiad", "Suran", "Andothren", "Dondril", "Vhuul", "Brina Cross"})
+addCategoryToRegionExport("food", {"Aimrah", "Ascadian Isles Region", "Pelagiad", "Suran", "Bal Foyen", "Dondril", "Vhuul", "Brina Cross"})
 addCategoryToRegionExport("cyrodimp", {"Old Ebonheart", "Anvil"})
 addCategoryToRegionExport("nordimp", {"Solstheim", "Dagon Fel", "Felsaad Coast", "Hirstaang Forest", "Isinfier Plains", "Moesring Mountains", "Skaal Village", "Thirsk", "Raven Rock", "Fort Frostmoth", "Karthwasten", "Dragonstar East"})
 addCategoryToRegionExport("glass", {"Ald-ruhn", "Grazelands Region", "Ghostgate", "Red Mountain Region"})
-addCategoryToRegionExport("pottery", {"Ald-ruhn", "Roth Roryn", "Andothren", "Stirk", "Almas Thirr"})
+addCategoryToRegionExport("pottery", {"Ald-ruhn", "Roth Roryn", "Bal Foyen", "Stirk", "Almas Thirr"})
 addCategoryToRegionExport("ingmine", {"Karthwasten", "Arvud", "Grazelands Region", "Molag Mar", "Raven Rock", "Firewatch"})
 addCategoryToRegionExport("coins", {"Karthwasten", "Dagon Fel", "Arvud", "Grazelands Region", "Molag Mar", "Khuul", "Raven Rock"})
 
 
 
-addCategoryToRegionImport("ingmine", {"Balmora", "Old Ebonheart", "Andothren", "Anvil"})
-addCategoryToRegionImport("luxury", {"Balmora", "Old Ebonheart", "Firewatch", "Helnim", "Akamora", "Andothren", "Anvil"})
+addCategoryToRegionImport("ingmine", {"Balmora", "Old Ebonheart", "Bal Foyen", "Anvil"})
+addCategoryToRegionImport("luxury", {"Balmora", "Old Ebonheart", "Firewatch", "Helnim", "Akamora", "Bal Foyen", "Anvil"})
 addCategoryToRegionImport("coins", {"Balmora", "Old Ebonheart", "Helnim", "Firewatch", "Anvil"})
 addCategoryToRegionImport("daedra", {"Balmora", "Old Ebonheart", "Helnim", "Firewatch", "Ald-ruhn"})
 addCategoryToRegionImport("soulgem", {"Necrom", "Tel Branora", "Tel Aruhn", "Sadrith Mora", "Tel Mora", "Vos", "Tel Vos"})

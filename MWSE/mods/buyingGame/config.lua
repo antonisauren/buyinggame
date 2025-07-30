@@ -35,6 +35,7 @@ local defaultConfig = {
 
 	},
 	smuggler = {},
+--Morrowind Mainland
 	["Aanthirin Region"] = {
 		export = {
 			ingred_netch_leather_01 = true,
@@ -75,8 +76,29 @@ local defaultConfig = {
 			AB_w_ToolScythe = true,
 		}
 	},
-
-
+	["Almas Thirr"] = {
+		export = {
+			ingred_black_anther_01 = true,
+			ingred_kresh_fiber_01 = true,
+			ingred_marshmerrow_01 = true,
+			ingred_muck_01 = true,
+			ingred_saltrice_01 = true,
+			AB_IngFood_SaltriceBread = true,
+			Potion_Local_Brew_01 = true,
+			AB_IngFlor_TelvanniResin = true,
+		},
+		import = {
+			["sc_paper plain"] = true,
+			ashfall_firewood = true,
+			AB_sc_Blank = true,
+			AB_sc_BlankBargain = true,
+			AB_sc_BlankCheap = true,
+			AB_sc_BlankExclusive = true,
+			AB_sc_BlankQuality = true,
+			potion_skooma_01 = true,
+			ingred_moon_sugar_01 = true,
+		}
+	},
 	["Alt Orethan Region"] = {
 		export = {
 			Ingred_nirthfly_stalks_01 = true,
@@ -103,6 +125,32 @@ local defaultConfig = {
 		}
 
 	},
+	["Armun Ashlands Region"] = {
+		export = {
+			ingred_hound_meat_01 = true,
+			ingred_raw_glass_01 = true,
+			ingred_raw_ebony_01 = true,
+			ingred_diamond_01 = true,
+			ingred_fire_fern_01 = true,
+			ingred_red_lichen_01 = true,
+			ingred_scathecraw_01 = true,
+			ingred_trama_root_01 = true,
+			ingred_shalk_resin_01 = true,
+			ingred_scuttle_01 = true,
+			AB_IngFood_ScuttlePie = true,
+			ingred_ash_salts_01 = true,
+			AB_IngCrea_GuarMeat_01 = true,
+			ingred_guar_hide_01 = true,
+		},
+		import = {
+			ashfall_firewood = true,
+			ingred_bread_01 = true,
+			p_cure_blight_s = true,
+			AB_w_EggminerHook = true,
+			AB_a_EggminerHelm = true,
+		}
+	},
+	["Arnesian Jungle Region"] ={},
 	["Ascadian Bluffs Region"] = {
 		export = {
 			ingred_black_anther_01 = true,
@@ -131,6 +179,31 @@ local defaultConfig = {
 		import = {
 		}
 	},
+	["Clambering Moor Region"] ={},
+	["Dagon Urul Region"] = {
+		export = {
+			["ingred_hackle-lo_leaf_01"] = true,
+			ingred_wickwheat_01 = true,
+			ingred_marshmerrow_01 = true,
+			T_IngCrea_FlyMusk_01 = true,
+			T_IngCrea_BeetleResin_01 = true,
+			T_IngCrea_BeetleShell_01 = true,
+			T_IngCrea_BeetleShell_02 = true,
+			T_IngCrea_BeetleShell_03 = true,
+			T_IngCrea_BeetleShell_04 = true,
+			AB_IngCrea_GuarMeat_01 = true,
+			ingred_guar_hide_01 = true,
+			ingred_alit_hide_01 = true,
+			ingred_hound_meat_01 = true,
+			ingred_raw_ebony_01 = true,
+		},
+		import = {
+		}
+	},
+	["Deshaan Plains Region"] ={},
+	["Firemoth Region"] ={},
+	["Grey Meadows Region"] ={},
+	["Julan-Shar Region"] ={},
 	["Helnim Fields Region"] = {
 		export = {
 			["ingred_hackle-lo_leaf_01"] = true,
@@ -139,31 +212,7 @@ local defaultConfig = {
 		import = {
 		}
 	},
-	["Armun Ashlands Region"] = {
-		export = {
-			ingred_hound_meat_01 = true,
-			ingred_raw_glass_01 = true,
-			ingred_raw_ebony_01 = true,
-			ingred_diamond_01 = true,
-			ingred_fire_fern_01 = true,
-			ingred_red_lichen_01 = true,
-			ingred_scathecraw_01 = true,
-			ingred_trama_root_01 = true,
-			ingred_shalk_resin_01 = true,
-			ingred_scuttle_01 = true,
-			AB_IngFood_ScuttlePie = true,
-			ingred_ash_salts_01 = true,
-			AB_IngCrea_GuarMeat_01 = true,
-			ingred_guar_hide_01 = true,
-		},
-		import = {
-			ashfall_firewood = true,
-			ingred_bread_01 = true,
-			p_cure_blight_s = true,
-			AB_w_EggminerHook = true,
-			AB_a_EggminerHelm = true,
-		}
-	},
+	["Kragen Moor Region"] ={},
 	["Lan Orethan Region"] = {
 		export = {
 			ingred_corkbulb_01 = true,
@@ -190,6 +239,7 @@ local defaultConfig = {
 		import = {
 		}
 	},
+	["Malahk Bazul Region"] ={},
 	["Mephalan Vales Region"] = {
 		export = {
 			ingred_hound_meat_01 = true,
@@ -207,26 +257,9 @@ local defaultConfig = {
 		import = {
 		}
 	},
-	["Dagon Urul Region"] = {
-		export = {
-			["ingred_hackle-lo_leaf_01"] = true,
-			ingred_wickwheat_01 = true,
-			ingred_marshmerrow_01 = true,
-			T_IngCrea_FlyMusk_01 = true,
-			T_IngCrea_BeetleResin_01 = true,
-			T_IngCrea_BeetleShell_01 = true,
-			T_IngCrea_BeetleShell_02 = true,
-			T_IngCrea_BeetleShell_03 = true,
-			T_IngCrea_BeetleShell_04 = true,
-			AB_IngCrea_GuarMeat_01 = true,
-			ingred_guar_hide_01 = true,
-			ingred_alit_hide_01 = true,
-			ingred_hound_meat_01 = true,
-			ingred_raw_ebony_01 = true,
-		},
-		import = {
-		}
-	},
+	["Molag Ruhn Region"] ={},
+	["Molagreahd Region"] ={},
+	["Mudflats Region"] ={},
 	["Nedothril Region"] = {
 		export = {
 			Ingred_nirthfly_stalks_01 = true,
@@ -238,61 +271,8 @@ local defaultConfig = {
 		import = {
 		}
 	},
-	["Padomaic Ocean Region"] = {
-		export = {
-			T_IngCrea_Ambergris = true,
-		},
-		import = {
-			AB_w_ToolFishingNet = true,
-			T_Rga_FishingSpear_01 = true,
-		}
-	},
-	["Sea of Ghosts Region"] = {
-		export = {
-		},
-		import = {
-		}
-	},
-	["Sundered Scar Region"] = {
-		export = { -- durzog?
-			ashfall_backpack_n = true,
-			ingred_netch_leather_01 = true,
-			ingred_bungler_bane_01 = true,
-			T_IngFlor_TempleDome_01 = true,
-			ingred_draggle_tail_01 = true,
-			ingred_hypha_facia = true,
-			ingred_luminous_russula_01 = true,
-			ingred_slough_fern_01 = true,
-			ingred_violet_coprinus_01 = true,
-			ingred_raw_glass_01 = true,
-			ingred_hound_meat_01 = true
-		},
-		import = {
-			AB_w_ToolFishingNet = true,
-			T_Rga_FishingSpear_01 = true,
-			p_cure_common_s = true,
-		}
-	},
-
-
-	["Telvanni Isles Region"] = {
-		export = {
-			T_IngCrea_FlyMusk_01 = true,
-			T_IngCrea_BeetleResin_01 = true,
-			T_IngCrea_BeetleShell_01 = true,
-			T_IngCrea_BeetleShell_02 = true,
-			T_IngCrea_BeetleShell_03 = true,
-			T_IngCrea_BeetleShell_04 = true,
-			ingred_kresh_fiber_01 = true,
-			ingred_muck_01 = true,
-			ingred_netch_leather_01 = true, -- netch and strider farm
-			--molecrab armor
-		},
-		import = {
-			-- saltrice for mazte?
-		}
-	},
-
+	["Old Ebonheart Region"] ={},
+	["Othreleth Woods Region"] ={},
 	["Roth Roryn Region"] = {
 		export = {
 			AB_IngCrea_GuarMeat_01 = true,
@@ -331,276 +311,123 @@ local defaultConfig = {
 		},
 		import = {}
 	},
-    ["Grazelands Region"] = {
-		export = {
-			ingred_hound_meat_01 = true,
-			ingred_alit_hide_01 = true,
-			ingred_kagouti_hide_01 = true,
-			ingred_raw_glass_01 = true,
-			["ingred_hackle-lo_leaf_01"] = true,
-			ingred_stoneflower_01 = true,
-			ingred_wickwheat_01 = true,
-			ingred_shalk_resin_01 = true,
-			ingred_scuttle_01 = true,
-			AB_IngFood_ScuttlePie = true,
-			AB_IngFlor_TelvanniResin = true,
-			AB_IngCrea_GuarMeat_01 = true,
-			ingred_guar_hide_01 = true,
-		},
-		import = {
-			["sc_paper plain"] = true,
-			ashfall_firewood = true,
-			AB_sc_Blank = true,
-			AB_sc_BlankBargain = true,
-			AB_sc_BlankCheap = true,
-			AB_sc_BlankExclusive = true,
-			AB_sc_BlankQuality = true,
-		}
-    }, 
-    ["West Gash Region"] = {
-		export = {
-			ingred_hound_meat_01 = true,
-			ingred_alit_hide_01 = true,
-			ingred_kagouti_hide_01 = true,
-			ingred_raw_ebony_01 = true,
-			ingred_bittergreen_01 = true,
-			AB_IngFlor_BgSlime_01 = true,
-			ingred_chokeweed_01 = true,
-			ingred_green_lichen_01 = true,
-			ingred_kresh_fiber_01 = true,
-			ingred_roobrush_01 = true,
-			ingred_muck_01 = true,
-			ingred_stoneflower_01 = true,
-			potion_local_liquor_01  = true
-		},
-		import = {
-			AB_w_EggminerHook = true,
-			AB_a_EggminerHelm = true,
-		}
-    },
-    ["Ashlands Region"] = {
-		export = {
-			ingred_hound_meat_01 = true,
-			ingred_raw_glass_01 = true,
-			ingred_raw_ebony_01 = true,
-			ingred_diamond_01 = true,
-			ingred_fire_fern_01 = true,
-			ingred_red_lichen_01 = true,
-			ingred_scathecraw_01 = true,
-			ingred_trama_root_01 = true,
-			ingred_shalk_resin_01 = true,
-			ingred_scuttle_01 = true,
-			AB_IngFood_ScuttlePie = true,
-			ingred_ash_salts_01 = true,
-			AB_IngCrea_GuarMeat_01 = true,
-			ingred_guar_hide_01 = true,
-		},
-		import = {
-			ashfall_firewood = true,
-			ingred_bread_01 = true,
-			p_cure_blight_s = true,
-			AB_w_EggminerHook = true,
-			AB_a_EggminerHelm = true,
-            p_cure_blight_s = true,
-            p_cure_common_s =true,
-		}
-    },
-	
-	["Red Mountain Region"] = {
-		export = {
-			ingred_raw_glass_01 = true,
-			ingred_raw_ebony_01 = true,
-			ingred_diamond_01 = true,
-			ingred_fire_fern_01 = true,
-			ingred_red_lichen_01 = true,
-			ingred_scathecraw_01 = true,
-			ingred_trama_root_01 = true,
-			ingred_shalk_resin_01 = true,
-			ingred_scuttle_01 = true,
-			AB_IngFood_ScuttlePie = true,
-			ingred_ash_salts_01 = true,
-			AB_IngCrea_GuarMeat_01 = true,
-			ingred_guar_hide_01 = true,
-		},
-		import = {
-			ashfall_firewood = true,
-			ingred_bread_01 = true,
-            p_cure_blight_s = true,
-            p_cure_common_s =true,
-		}
-    },
-	
-    ["Bitter Coast Region"] = {
-		export = {
+	["Salt Marsh Region"] ={},
+	["Sea Of Ghosts Region N"] ={},
+	["Seitur Region"] ={},
+	["Shipal-Shin Region"] ={},
+	["Sundered Scar Region"] = {
+		export = { -- durzog?
 			ashfall_backpack_n = true,
 			ingred_netch_leather_01 = true,
 			ingred_bungler_bane_01 = true,
+			T_IngFlor_TempleDome_01 = true,
 			ingred_draggle_tail_01 = true,
 			ingred_hypha_facia = true,
 			ingred_luminous_russula_01 = true,
 			ingred_slough_fern_01 = true,
 			ingred_violet_coprinus_01 = true,
-			ingred_hound_meat_01 = true,
-			potion_skooma_01 = true,
+			ingred_raw_glass_01 = true,
+			ingred_hound_meat_01 = true
 		},
 		import = {
 			AB_w_ToolFishingNet = true,
 			T_Rga_FishingSpear_01 = true,
 			p_cure_common_s = true,
 		}
-    },
-    ["Ascadian Isles Region"] = {
+	},
+	["Telvanni Isles Region"] = {
 		export = {
-			ingred_hound_meat_01 = true,
-			ingred_kagouti_hide_01 = true,
-			ingred_netch_leather_01 = true,
-			ashfall_backpack_n = true,
-			ingred_ash_yam_01 = true,
-			ingred_black_anther_01 = true,
-			ingred_comberry_01 = true,
-			potion_comberry_brandy_01 = true,
-			potion_comberry_wine_01 = true,
-			ingred_corkbulb_01 = true,
-			ingred_gold_canet_01 = true,
-			ingred_heather_01 = true,
-			ingred_marshmerrow_01 = true,
-			ingred_saltrice_01 = true,
-			AB_IngFood_SaltriceBread = true,
-			Potion_Local_Brew_01 = true,
-			ingred_willow_flower_01 = true,
-			AB_IngCrea_GuarMeat_01 = true,
-			ingred_guar_hide_01 = true,
-			potion_skooma_01 = true,
-		},
-		import = {
-			AB_w_ToolHandscythe00 = true,
-			AB_w_ToolHandscythe01 = true,
-			AB_w_ToolScythe = true,
-		}
-    },
-    ["Molag Amur Region"] = {
-		export = {
-			ingred_fire_fern_01 = true,
-			food_kwama_egg_01 = true,
-			food_kwama_egg_02 = true,
-			ingred_scathecraw_01 = true,
-			ingred_trama_root_01 = true,
-			ingred_shalk_resin_01 = true,
-			ingred_scuttle_01 = true,
-			ingred_racer_plumes_01 = true,
-			AB_IngFood_ScuttlePie = true
-		},
-		import = {
-			ashfall_firewood = true,
-			ingred_bread_01 = true,
-			AB_w_EggminerHook = true,
-			AB_a_EggminerHelm = true,
-            p_cure_blight_s = true,
-            p_cure_common_s =true,
-		}
-    },
-    ["Azura's Coast Region"] = {
-		export = {
-			ingred_alit_hide_01 = true,
-			ingred_black_anther_01 = true,
+			T_IngCrea_FlyMusk_01 = true,
+			T_IngCrea_BeetleResin_01 = true,
+			T_IngCrea_BeetleShell_01 = true,
+			T_IngCrea_BeetleShell_02 = true,
+			T_IngCrea_BeetleShell_03 = true,
+			T_IngCrea_BeetleShell_04 = true,
 			ingred_kresh_fiber_01 = true,
-			ingred_marshmerrow_01 = true,
 			ingred_muck_01 = true,
-			ingred_saltrice_01 = true,
-			AB_IngFood_SaltriceBread = true,
-			Potion_Local_Brew_01 = true,
-			AB_IngFlor_TelvanniResin = true,
-			ingred_racer_plumes_01 = true,
+			ingred_netch_leather_01 = true, -- netch and strider farm
+			--molecrab armor
 		},
 		import = {
-			["sc_paper plain"] = true,
-			ashfall_firewood = true,
-			AB_sc_Blank = true,
-			AB_sc_BlankBargain = true,
-			AB_sc_BlankCheap = true,
-			AB_sc_BlankExclusive = true,
-			AB_sc_BlankQuality = true,
+			-- saltrice for mazte?
 		}
-    },
-
-    ["Almas Thirr"] = {
+	},
+	["Thirr Valley Region"] ={},
+	["Uld Vraech Region"] ={}, --Great Valley
+	["Velothi Mountains Region"] ={},
+	Vhuul = {
 		export = {
-			ingred_black_anther_01 = true,
-			ingred_kresh_fiber_01 = true,
-			ingred_marshmerrow_01 = true,
-			ingred_muck_01 = true,
-			ingred_saltrice_01 = true,
-			AB_IngFood_SaltriceBread = true,
-			Potion_Local_Brew_01 = true,
-			AB_IngFlor_TelvanniResin = true,
+			T_De_Drink_PunavitJug = true,
+			T_De_Drink_PunavitResin_01 = true
 		},
 		import = {
-			["sc_paper plain"] = true,
-			ashfall_firewood = true,
-			AB_sc_Blank = true,
-			AB_sc_BlankBargain = true,
-			AB_sc_BlankCheap = true,
-			AB_sc_BlankExclusive = true,
-			AB_sc_BlankQuality = true,
-			potion_skooma_01 = true,
-			ingred_moon_sugar_01 = true,
+			T_IngCrea_VelkNectarSack_01 = true
 		}
-    },
-
-    ["Vivec"] = {
+	},
+--Cyrodiil
+	["Abecean Sea Region"] ={},
+	["Colovian Barrowlands Region"] ={},
+	["Colovian Highlands Region"] ={},
+	["Dasek Marsh Region"] ={},
+	["Gilded Hills Region"] ={}, --Brennian Bluffs
+	["Gold Coast Region"] ={},
+	["Jerall Mountains Region"] ={},
+	["Kvetchi Pass Region"] ={},
+	["Southern Gold Coast Region"] ={},
+	["Stirk Isle Region"] ={},
+	["West Weald Region"] ={},
+--Skyrim
+	["Broken Cape Region"] ={},
+	["Drajkmyr Marsh Region"] ={},
+	["Druadach Highlands Region"] ={},
+	["Falkheim Region"] ={},
+	["Gorvigh Mountains Region"] ={},
+	["Hirsing Forest Region"] ={},
+	["Hrimbald Plateau Region"] ={},
+	["Kilkreath Mountains Region"] ={},
+	["Kreathi Vale Region"] ={},
+	["Lorchwuir Heath Region"] ={},
+	["Midkarth Region"] ={},
+	["Northshore Region"] ={},
+	["Reaver's Shore Region"] ={},
+	["Rift Valley Region"] ={},
+	["Skaldring Mountains Region"] ={},
+	["Solitude Forest Region"] ={},
+	["Solitude Forest Region S"] ={},
+	["Sundered Hills Region"] ={},
+	["Throat Of The World Region"] ={},
+	["Troll's Teeth Mountains Region"] ={},
+	["Valstaag Highlands Region"] ={},
+	["Vorndgad Forest Region"] ={},
+	["White Plains Region"] ={}, --Ivory Steppe
+	["Wuurthal Dale Region"] ={},
+	["Ysheim Region"] ={},
+--Hammerfell
+	["Goldmoor Region"] ={},
+	["Riddle-Lands Region"] ={},
+--High Rock
+	["Creag Coast Region"] ={},
+	["Dragonfields Region"] ={},
+	["Ostheldir Region"] ={},
+--Padomaic
+	["Temaris Isle Region"] ={},
+	["Padomaic Ocean Region"] = {
 		export = {
-			ingred_black_anther_01 = true,
-			ingred_kresh_fiber_01 = true,
-			ingred_marshmerrow_01 = true,
-			ingred_muck_01 = true,
-			ingred_saltrice_01 = true,
-			AB_IngFood_SaltriceBread = true,
-			Potion_Local_Brew_01 = true,
-			AB_IngFlor_TelvanniResin = true,
+			T_IngCrea_Ambergris = true,
 		},
 		import = {
-			["sc_paper plain"] = true,
-			ashfall_firewood = true,
-			AB_sc_Blank = true,
-			AB_sc_BlankBargain = true,
-			AB_sc_BlankCheap = true,
-			AB_sc_BlankExclusive = true,
-			AB_sc_BlankQuality = true,
-			potion_skooma_01 = true,
-			ingred_moon_sugar_01 = true,
+			AB_w_ToolFishingNet = true,
+			T_Rga_FishingSpear_01 = true,
 		}
-    },
-
-    ["Sheogorad Region"] = {
+	},
+--Vvardenfell
+	["Ald Velothi"] = {
 		export = {
-			ingred_black_anther_01 = true,
-			ingred_gold_canet_01 = true,
-			ingred_green_lichen_01 = true,
-			ingred_kresh_fiber_01 = true,
-			ingred_racer_plumes_01 = true,
 		},
 		import = {
-			ashfall_firewood = true,
-		}
-    },
-	Solstheim = {
-		export = {
-			ingred_raw_ebony_01 = true,
-			ingred_bear_pelt = true,
-			ingred_boar_leather = true,
-			ingred_belladonna_01 = true,
-			ingred_belladonna_02 = true,
-			ingred_holly_01 = true,
-			ingred_horker_tusk_01 = true,
-			ashfall_backpack_b = true,
-			ashfall_backpack_w = true,
-			ashfall_firewood = true,
-			potion_nord_mead = true,
-			T_IngFood_MeatHorker_01 = true,
-		},
-		import = {
-			potion_cyro_brandy_01 = true,
-			Potion_Cyro_Whiskey_01 = true,
+			AB_w_ToolFishingNet = true,
+			T_Rga_FishingSpear_01 = true,
+			p_cure_common_s = true,
 		}
 	},
 	["Ald-ruhn"] = {
@@ -682,6 +509,85 @@ local defaultConfig = {
 			T_Com_MetalPieceSteel_01 = true,
 		}
 	},
+	["Ascadian Isles Region"] = {
+		export = {
+			ingred_hound_meat_01 = true,
+			ingred_kagouti_hide_01 = true,
+			ingred_netch_leather_01 = true,
+			ashfall_backpack_n = true,
+			ingred_ash_yam_01 = true,
+			ingred_black_anther_01 = true,
+			ingred_comberry_01 = true,
+			potion_comberry_brandy_01 = true,
+			potion_comberry_wine_01 = true,
+			ingred_corkbulb_01 = true,
+			ingred_gold_canet_01 = true,
+			ingred_heather_01 = true,
+			ingred_marshmerrow_01 = true,
+			ingred_saltrice_01 = true,
+			AB_IngFood_SaltriceBread = true,
+			Potion_Local_Brew_01 = true,
+			ingred_willow_flower_01 = true,
+			AB_IngCrea_GuarMeat_01 = true,
+			ingred_guar_hide_01 = true,
+			potion_skooma_01 = true,
+		},
+		import = {
+			AB_w_ToolHandscythe00 = true,
+			AB_w_ToolHandscythe01 = true,
+			AB_w_ToolScythe = true,
+		}
+	},
+	["Ashlands Region"] = {
+		export = {
+			ingred_hound_meat_01 = true,
+			ingred_raw_glass_01 = true,
+			ingred_raw_ebony_01 = true,
+			ingred_diamond_01 = true,
+			ingred_fire_fern_01 = true,
+			ingred_red_lichen_01 = true,
+			ingred_scathecraw_01 = true,
+			ingred_trama_root_01 = true,
+			ingred_shalk_resin_01 = true,
+			ingred_scuttle_01 = true,
+			AB_IngFood_ScuttlePie = true,
+			ingred_ash_salts_01 = true,
+			AB_IngCrea_GuarMeat_01 = true,
+			ingred_guar_hide_01 = true,
+		},
+		import = {
+			ashfall_firewood = true,
+			ingred_bread_01 = true,
+			p_cure_blight_s = true,
+			AB_w_EggminerHook = true,
+			AB_a_EggminerHelm = true,
+			p_cure_blight_s = true,
+			p_cure_common_s =true,
+		}
+	},
+	["Azura's Coast Region"] = {
+		export = {
+			ingred_alit_hide_01 = true,
+			ingred_black_anther_01 = true,
+			ingred_kresh_fiber_01 = true,
+			ingred_marshmerrow_01 = true,
+			ingred_muck_01 = true,
+			ingred_saltrice_01 = true,
+			AB_IngFood_SaltriceBread = true,
+			Potion_Local_Brew_01 = true,
+			AB_IngFlor_TelvanniResin = true,
+			ingred_racer_plumes_01 = true,
+		},
+		import = {
+			["sc_paper plain"] = true,
+			ashfall_firewood = true,
+			AB_sc_Blank = true,
+			AB_sc_BlankBargain = true,
+			AB_sc_BlankCheap = true,
+			AB_sc_BlankExclusive = true,
+			AB_sc_BlankQuality = true,
+		}
+	},
 	Balmora = {
 		export = {
 			["bonemold_armun-an_cuirass"] = true,
@@ -697,76 +603,9 @@ local defaultConfig = {
 			T_Imp_SilverScales_02 = true,
 		}
 	},
-
-	["Hlan Oek"] = {
+	["Bitter Coast Region"] = {
 		export = {
-			["bonemold_armun-an_cuirass"] = true,
-			["bonemold_armun-an_helm"] = true,
-			["bonemold_armun-an_pauldron_l"] = true,
-			["bonemold_armun-an_pauldron_r"] = true,
-			["bonemold_tshield_hlaaluguard"] = true,
-			potion_skooma_01 = true,
-		},
-		import = {
-			T_He_DirenniScales_01 = true,
-			T_Imp_SilverScales_01 = true,
-			T_Imp_SilverScales_02 = true,
-		}
-	},
-
-	Suran = {
-		export = {
-			["bonemold_armun-an_cuirass"] = true,
-			["bonemold_armun-an_helm"] = true,
-			["bonemold_armun-an_pauldron_l"] = true,
-			["bonemold_armun-an_pauldron_r"] = true,
-			["bonemold_tshield_hlaaluguard"] = true,
-			potion_skooma_01 = true,
-		},
-		import = {
-			T_He_DirenniScales_01 = true,
-			T_Imp_SilverScales_01 = true,
-			T_Imp_SilverScales_02 = true,
-		}
-	},
-	Caldera = {
-		export = {
-			ingred_raw_ebony_01 = true,
-		},
-		import = {
-		}
-	},
-	["Khuul"] = {
-		export = {
-		},
-		import = {
-			AB_w_ToolFishingNet = true,
-			T_Rga_FishingSpear_01 = true,
-			p_cure_common_s = true,
-		}
-	},
-	["Ald Velothi"] = {
-		export = {
-		},
-		import = {
-			AB_w_ToolFishingNet = true,
-			T_Rga_FishingSpear_01 = true,
-			p_cure_common_s = true,
-		}
-	},
-	["Gnisis"] = {
-		export = {
-			food_kwama_egg_01 = true,
-			food_kwama_egg_02 = true,
-		},
-		import = {
-			p_cure_blight_s = true,
-			AB_w_EggminerHook = true,
-			AB_a_EggminerHelm = true,
-		}
-	},
-	["Hla Oad"] = {
-		export = {
+			ashfall_backpack_n = true,
 			ingred_netch_leather_01 = true,
 			ingred_bungler_bane_01 = true,
 			ingred_draggle_tail_01 = true,
@@ -781,6 +620,13 @@ local defaultConfig = {
 			AB_w_ToolFishingNet = true,
 			T_Rga_FishingSpear_01 = true,
 			p_cure_common_s = true,
+		}
+	},
+	Caldera = {
+		export = {
+			ingred_raw_ebony_01 = true,
+		},
+		import = {
 		}
 	},
 	["Gnaar Mok"] = {
@@ -801,7 +647,44 @@ local defaultConfig = {
 			p_cure_common_s = true,
 		}
 	},
-	["Seyda Neen"] = {
+	["Gnisis"] = {
+		export = {
+			food_kwama_egg_01 = true,
+			food_kwama_egg_02 = true,
+		},
+		import = {
+			p_cure_blight_s = true,
+			AB_w_EggminerHook = true,
+			AB_a_EggminerHelm = true,
+		}
+	},
+	["Grazelands Region"] = {
+		export = {
+			ingred_hound_meat_01 = true,
+			ingred_alit_hide_01 = true,
+			ingred_kagouti_hide_01 = true,
+			ingred_raw_glass_01 = true,
+			["ingred_hackle-lo_leaf_01"] = true,
+			ingred_stoneflower_01 = true,
+			ingred_wickwheat_01 = true,
+			ingred_shalk_resin_01 = true,
+			ingred_scuttle_01 = true,
+			AB_IngFood_ScuttlePie = true,
+			AB_IngFlor_TelvanniResin = true,
+			AB_IngCrea_GuarMeat_01 = true,
+			ingred_guar_hide_01 = true,
+		},
+		import = {
+			["sc_paper plain"] = true,
+			ashfall_firewood = true,
+			AB_sc_Blank = true,
+			AB_sc_BlankBargain = true,
+			AB_sc_BlankCheap = true,
+			AB_sc_BlankExclusive = true,
+			AB_sc_BlankQuality = true,
+		}
+	}, 
+	["Hla Oad"] = {
 		export = {
 			ingred_netch_leather_01 = true,
 			ingred_bungler_bane_01 = true,
@@ -811,6 +694,7 @@ local defaultConfig = {
 			ingred_slough_fern_01 = true,
 			ingred_violet_coprinus_01 = true,
 			ingred_hound_meat_01 = true,
+			potion_skooma_01 = true,
 		},
 		import = {
 			AB_w_ToolFishingNet = true,
@@ -818,52 +702,72 @@ local defaultConfig = {
 			p_cure_common_s = true,
 		}
 	},
-	["Tel Branora"] = {
+	["Hlan Oek"] = {
 		export = {
-			bonemold_tshield_telvanniguard = true,
-			cephalopod_helm = true,
-			AB_a_CephHelmOpen = true,
-			AB_a_CephPauldronLeft = true,
-			AB_a_CephPauldronRight = true,
-			dust_adept_helm = true,
-			mole_crab_helm = true,
-			potion_t_bug_musk_01 = true,
+			["bonemold_armun-an_cuirass"] = true,
+			["bonemold_armun-an_helm"] = true,
+			["bonemold_armun-an_pauldron_l"] = true,
+			["bonemold_armun-an_pauldron_r"] = true,
+			["bonemold_tshield_hlaaluguard"] = true,
+			potion_skooma_01 = true,
 		},
 		import = {
-			food_kwama_egg_01 = true,
-			food_kwama_egg_02 = true,
-			misc_uniq_egg_of_gold = true,
+			T_He_DirenniScales_01 = true,
+			T_Imp_SilverScales_01 = true,
+			T_Imp_SilverScales_02 = true,
 		}
 	},
-	["Tel Aruhn"] = {
+	["Khuul"] = {
 		export = {
-			bonemold_tshield_telvanniguard = true,
-			AB_a_CephHelmOpen = true,
-			AB_a_CephPauldronLeft = true,
-			AB_a_CephPauldronRight = true,
-			cephalopod_helm = true,
-			mole_crab_helm = true,
-			dust_adept_helm = true,
-			potion_t_bug_musk_01 = true,
 		},
 		import = {
-			["6th bell hammer"] = true,
-			misc_goblet_dagoth = true,
-			AB_Misc_6thBell = true,
-			AB_Misc_6thFlute = true,
-			misc_6th_ash_statue_01 = true,
-			AB_Misc_6thAshStatue13 = true,
-			AB_Misc_6thAshStatue07 = true,
-			AB_Misc_6thAshStatue04 = true,
-			AB_Misc_6thAshStatue02 = true,
-			AB_Misc_6thMug = true,
-			AB_Misc_6thBowl = true,
-			misc_de_goblet_04_dagoth = true,
-			AB_Misc_6thPlate02 = true,
-			AB_Misc_6thPlate01 = true,
-			potion_ancient_brandy = true,
-			ingred_corprus_weepings_01 = true,
-			ingred_ghoul_heart_01 = true,
+			AB_w_ToolFishingNet = true,
+			T_Rga_FishingSpear_01 = true,
+			p_cure_common_s = true,
+		}
+	},
+	["Molag Amur Region"] = {
+		export = {
+			ingred_fire_fern_01 = true,
+			food_kwama_egg_01 = true,
+			food_kwama_egg_02 = true,
+			ingred_scathecraw_01 = true,
+			ingred_trama_root_01 = true,
+			ingred_shalk_resin_01 = true,
+			ingred_scuttle_01 = true,
+			ingred_racer_plumes_01 = true,
+			AB_IngFood_ScuttlePie = true
+		},
+		import = {
+			ashfall_firewood = true,
+			ingred_bread_01 = true,
+			AB_w_EggminerHook = true,
+			AB_a_EggminerHelm = true,
+			p_cure_blight_s = true,
+			p_cure_common_s =true,
+		}
+	},
+	["Red Mountain Region"] = {
+		export = {
+			ingred_raw_glass_01 = true,
+			ingred_raw_ebony_01 = true,
+			ingred_diamond_01 = true,
+			ingred_fire_fern_01 = true,
+			ingred_red_lichen_01 = true,
+			ingred_scathecraw_01 = true,
+			ingred_trama_root_01 = true,
+			ingred_shalk_resin_01 = true,
+			ingred_scuttle_01 = true,
+			AB_IngFood_ScuttlePie = true,
+			ingred_ash_salts_01 = true,
+			AB_IngCrea_GuarMeat_01 = true,
+			ingred_guar_hide_01 = true,
+		},
+		import = {
+			ashfall_firewood = true,
+			ingred_bread_01 = true,
+			p_cure_blight_s = true,
+			p_cure_common_s =true,
 		}
 	},
 	["Sadrith Mora"] = {
@@ -919,17 +823,170 @@ local defaultConfig = {
 			T_De_PunavitSamovar_01 = true,
 		}
 	},
-
-	Vhuul = {
+	["Sea of Ghosts Region"] = {
 		export = {
-			T_De_Drink_PunavitJug = true,
-			T_De_Drink_PunavitResin_01 = true
 		},
 		import = {
-			T_IngCrea_VelkNectarSack_01 = true
+		}
+	},
+	["Seyda Neen"] = {
+		export = {
+			ingred_netch_leather_01 = true,
+			ingred_bungler_bane_01 = true,
+			ingred_draggle_tail_01 = true,
+			ingred_hypha_facia = true,
+			ingred_luminous_russula_01 = true,
+			ingred_slough_fern_01 = true,
+			ingred_violet_coprinus_01 = true,
+			ingred_hound_meat_01 = true,
+		},
+		import = {
+			AB_w_ToolFishingNet = true,
+			T_Rga_FishingSpear_01 = true,
+			p_cure_common_s = true,
+		}
+	},
+	["Sheogorad Region"] = {
+		export = {
+			ingred_black_anther_01 = true,
+			ingred_gold_canet_01 = true,
+			ingred_green_lichen_01 = true,
+			ingred_kresh_fiber_01 = true,
+			ingred_racer_plumes_01 = true,
+		},
+		import = {
+			ashfall_firewood = true,
+		}
+	},
+	Solstheim = {
+		export = {
+			ingred_raw_ebony_01 = true,
+			ingred_bear_pelt = true,
+			ingred_boar_leather = true,
+			ingred_belladonna_01 = true,
+			ingred_belladonna_02 = true,
+			ingred_holly_01 = true,
+			ingred_horker_tusk_01 = true,
+			ashfall_backpack_b = true,
+			ashfall_backpack_w = true,
+			ashfall_firewood = true,
+			potion_nord_mead = true,
+			T_IngFood_MeatHorker_01 = true,
+		},
+		import = {
+			potion_cyro_brandy_01 = true,
+			Potion_Cyro_Whiskey_01 = true,
+		}
+	},
+	Suran = {
+		export = {
+			["bonemold_armun-an_cuirass"] = true,
+			["bonemold_armun-an_helm"] = true,
+			["bonemold_armun-an_pauldron_l"] = true,
+			["bonemold_armun-an_pauldron_r"] = true,
+			["bonemold_tshield_hlaaluguard"] = true,
+			potion_skooma_01 = true,
+		},
+		import = {
+			T_He_DirenniScales_01 = true,
+			T_Imp_SilverScales_01 = true,
+			T_Imp_SilverScales_02 = true,
+		}
+	},
+	["Tel Aruhn"] = {
+		export = {
+			bonemold_tshield_telvanniguard = true,
+			AB_a_CephHelmOpen = true,
+			AB_a_CephPauldronLeft = true,
+			AB_a_CephPauldronRight = true,
+			cephalopod_helm = true,
+			mole_crab_helm = true,
+			dust_adept_helm = true,
+			potion_t_bug_musk_01 = true,
+		},
+		import = {
+			["6th bell hammer"] = true,
+			misc_goblet_dagoth = true,
+			AB_Misc_6thBell = true,
+			AB_Misc_6thFlute = true,
+			misc_6th_ash_statue_01 = true,
+			AB_Misc_6thAshStatue13 = true,
+			AB_Misc_6thAshStatue07 = true,
+			AB_Misc_6thAshStatue04 = true,
+			AB_Misc_6thAshStatue02 = true,
+			AB_Misc_6thMug = true,
+			AB_Misc_6thBowl = true,
+			misc_de_goblet_04_dagoth = true,
+			AB_Misc_6thPlate02 = true,
+			AB_Misc_6thPlate01 = true,
+			potion_ancient_brandy = true,
+			ingred_corprus_weepings_01 = true,
+			ingred_ghoul_heart_01 = true,
+		}
+	},
+	["Tel Branora"] = {
+		export = {
+			bonemold_tshield_telvanniguard = true,
+			cephalopod_helm = true,
+			AB_a_CephHelmOpen = true,
+			AB_a_CephPauldronLeft = true,
+			AB_a_CephPauldronRight = true,
+			dust_adept_helm = true,
+			mole_crab_helm = true,
+			potion_t_bug_musk_01 = true,
+		},
+		import = {
+			food_kwama_egg_01 = true,
+			food_kwama_egg_02 = true,
+			misc_uniq_egg_of_gold = true,
+		}
+	},
+	["Vivec"] = {
+		export = {
+			ingred_black_anther_01 = true,
+			ingred_kresh_fiber_01 = true,
+			ingred_marshmerrow_01 = true,
+			ingred_muck_01 = true,
+			ingred_saltrice_01 = true,
+			AB_IngFood_SaltriceBread = true,
+			Potion_Local_Brew_01 = true,
+			AB_IngFlor_TelvanniResin = true,
+		},
+		import = {
+			["sc_paper plain"] = true,
+			ashfall_firewood = true,
+			AB_sc_Blank = true,
+			AB_sc_BlankBargain = true,
+			AB_sc_BlankCheap = true,
+			AB_sc_BlankExclusive = true,
+			AB_sc_BlankQuality = true,
+			potion_skooma_01 = true,
+			ingred_moon_sugar_01 = true,
+		}
+	},
+	["West Gash Region"] = {
+		export = {
+			ingred_hound_meat_01 = true,
+			ingred_alit_hide_01 = true,
+			ingred_kagouti_hide_01 = true,
+			ingred_raw_ebony_01 = true,
+			ingred_bittergreen_01 = true,
+			AB_IngFlor_BgSlime_01 = true,
+			ingred_chokeweed_01 = true,
+			ingred_green_lichen_01 = true,
+			ingred_kresh_fiber_01 = true,
+			ingred_roobrush_01 = true,
+			ingred_muck_01 = true,
+			ingred_stoneflower_01 = true,
+			potion_local_liquor_01  = true
+		},
+		import = {
+			AB_w_EggminerHook = true,
+			AB_a_EggminerHelm = true,
 		}
 	},
 
+--item categories
 	chitin = {
 		["chitin arrow"] = true,
 		["chitin club"] = true,
@@ -970,7 +1027,6 @@ local defaultConfig = {
 		T_De_Chitin_Sickle_01 = true,
 		T_De_Chitin_Staff = true,
 	},
-	
 	netch = {
 		netch_leather_boiled_cuirass = true,
 		netch_leather_boiled_helm = true,
@@ -998,7 +1054,6 @@ local defaultConfig = {
 		T_De_NetchStalker_Helm_01 = true,
 
 	},
-	
 	ashlander = {
 		AB_Misc_AshlFlute = true,
 		AB_w_AshlBoneArrow = true,
@@ -1022,7 +1077,6 @@ local defaultConfig = {
 		AB_a_BugGreenPldRight = true,
 		AB_a_BugGreenShield = true,
 	},
-	
 	dwemer = {
 		AB_Misc_DwGyro00 = true,
 	},
@@ -1111,12 +1165,10 @@ local defaultConfig = {
 		["glass_dagger_enamor"] = true,
 		
 	},
-
 	undead = {
 		ingred_bonemeal_01 = true,
 		ingred_ectoplasm_01 = true
 	},
-	
 	sea = {
 		ingred_pearl_01 = true,
 		ingred_dreugh_wax_01 = true,
@@ -1145,10 +1197,9 @@ local defaultConfig = {
 		T_IngFood_FishSpr_01 = true,
 		T_IngFood_FishStrid_01 = true,
 	},
-	
 	kwama = {
 		food_kwama_egg_01 = true,
-        food_kwama_egg_02 = true,
+		food_kwama_egg_02 = true,
 		ingred_scrib_jelly_01 = true,
 		ingred_scrib_jerky_01 = true,
 		AB_IngCrea_KwamaPoison = true,
@@ -1158,7 +1209,6 @@ local defaultConfig = {
 		T_IngFood_ScribPie_01 = true,
 		T_IngCrea_KwamaChitin_01 = true,
 	},
-	
 	coins = {
 		T_Ayl_CoinGold_01 = true,
 		T_Ayl_CoinSquare_01 = true,
@@ -1173,7 +1223,6 @@ local defaultConfig = {
 		T_Nor_CoinBarrowIron_01 = true,
 		T_Nor_CoinBarrowSilver_01 = true,
 	},
-
 	farming_tools = {
 		AB_w_ToolHandscythe00 = true,
 		AB_w_ToolHandscythe01 = true,
@@ -1186,14 +1235,12 @@ local defaultConfig = {
 		T_Com_Farm_Sledgehammer_01 = true,
 		T_Com_Farm_Trovel_01 = true,
 	},
-
 	embalming_tools = {
 		T_Com_Embalming_Knife_01 = true,
 		T_Com_EmbalmingScissor_01 = true,
 		T_Com_Embalming_Hook_01 = true
 
 	},
-
 	fishing_tools = {
 		AB_w_ToolHandscythe00 = true,
 		AB_w_ToolHandscythe01 = true,
@@ -1206,7 +1253,6 @@ local defaultConfig = {
 		T_Com_Farm_Sledgehammer_01 = true,
 		T_Com_Farm_Trovel_01 = true,
 	},
-	
 	luxury = {
 		AB_Misc_DaeSigilstone_01 = true,
 		AB_Misc_DeEbonyBowl_01 = true,
@@ -1220,8 +1266,8 @@ local defaultConfig = {
 		AB_Misc_DeEbonyPlatter_01 = true,
 		AB_Misc_DeEbonySpoon_01 = true,
 		AB_Misc_LwBowlSmall = true,
-        AB_Misc_LwPitcher = true,
-        AB_Misc_LwVase = true,
+		AB_Misc_LwPitcher = true,
+		AB_Misc_LwVase = true,
 		AB_c_ExquisiteAmulet01 = true,
 		AB_c_ExquisiteRing01 = true,
 		exquisite_amulet_01 = true,
@@ -1248,18 +1294,18 @@ local defaultConfig = {
 		T_De_Ex_Shoes_01 = true,
 		T_Nor_Ex_Belt_01 = true,
 		T_Nor_Ex_Belt_02 = true,
-        misc_lw_bowl = true,
-        misc_lw_cup = true,
-        misc_lw_flask = true,
-        misc_lw_platter = true,
-        T_Com_Astrolabe_01 = true,
-        T_Com_MetalPieceGold_01 = true,
-        T_Com_MetalPieceGold_02 = true,
-        T_Com_MetalPieceGold_03 = true,
-        T_Com_MetalPieceSilver_01 = true,
-        T_Com_MetalPieceSilver_02 = true,
-        T_Com_MetalPieceSilver_03 = true,
-        T_Com_Sextant_01 = true,
+		misc_lw_bowl = true,
+		misc_lw_cup = true,
+		misc_lw_flask = true,
+		misc_lw_platter = true,
+		T_Com_Astrolabe_01 = true,
+		T_Com_MetalPieceGold_01 = true,
+		T_Com_MetalPieceGold_02 = true,
+		T_Com_MetalPieceGold_03 = true,
+		T_Com_MetalPieceSilver_01 = true,
+		T_Com_MetalPieceSilver_02 = true,
+		T_Com_MetalPieceSilver_03 = true,
+		T_Com_Sextant_01 = true,
 		T_De_Ebony_Bowl_01 = true,
 		T_De_Ebony_Bowl_02 = true,
 		T_De_Ebony_Cup_01 = true,
@@ -1269,25 +1315,23 @@ local defaultConfig = {
 		T_De_Ebony_Plate_01 = true,
 		T_De_Ebony_Platter_01 = true,
 		T_De_Ebony_Spoon_01 = true,
-        T_De_PunavitAshJar_01 = true,
-        T_De_PunavitKettle_01 = true,
-        T_Imp_GoldBowl_01 = true,
-        T_Imp_GoldBowl_01 = true,
-        T_Imp_GoldCandlestick_01 = true,
-        T_Imp_GoldCandlestick_02 = true,
-        T_Imp_GoldGoblet_01 = true,
-        T_Imp_GoldPitcher_01 = true,
-        },
-        
-        
-        ingmine = {
-        ingred_diamond_01 =  true,
-        ingred_emerald_01 =  true,
-        ingred_pearl_01 =  true,
-        ingred_raw_ebony_01 =  true,
-        ingred_ruby_01 =  true,
-        ingred_adamantium_ore_01 =  true,
-        ingred_raw_Stalhrim_01 =  true,
+		T_De_PunavitAshJar_01 = true,
+		T_De_PunavitKettle_01 = true,
+		T_Imp_GoldBowl_01 = true,
+		T_Imp_GoldBowl_01 = true,
+		T_Imp_GoldCandlestick_01 = true,
+		T_Imp_GoldCandlestick_02 = true,
+		T_Imp_GoldGoblet_01 = true,
+		T_Imp_GoldPitcher_01 = true,
+		},
+	ingmine = {
+		ingred_diamond_01 =  true,
+		ingred_emerald_01 =  true,
+		ingred_pearl_01 =  true,
+		ingred_raw_ebony_01 =  true,
+		ingred_ruby_01 =  true,
+		ingred_adamantium_ore_01 =  true,
+		ingred_raw_Stalhrim_01 =  true,
 		AB_IngMine_Amber_01 = true,
 		AB_IngMine_Amethyst_01 = true,
 		AB_IngMine_BlackPearl_01 = true,
@@ -1380,50 +1424,47 @@ local defaultConfig = {
 		T_IngMine_TopazDae_01 = true,
 		T_IngMine_Turquoise_01 = true,
 		T_IngMine_TurquoiseDae_01 = true,
-        },
-        
-        skillBooks = {
-        
-        },
-        pottery = {
+		},
+	skillBooks = {
+	},
+	pottery = {
 		misc_com_plate = true,
-        
-        },
-        glass = {
-                Misc_DE_glass_green_01 = true,
-                misc_de_glass_yellow_01 = true,
-                misc_de_tankard_01 = true,
-        },
-        food = {
-        ingred_hound_meat_01 = true,
-        food_kwama_egg_01 = true,
-        food_kwama_egg_02 = true,
-        ingred_scrib_jelly_01 = true,
-        ingred_scrib_jerky_01 = true,
-        ingred_ash_yam_01 = true,
-        ingred_bread_01 = true,
-        ingred_bread_01_UNI2 = true,
-        ingred_bread_01_UNI3 = true,
-        ingred_crab_meat_01 = true,
-        ingred_durzog_meat_01 = true,
-        ingred_saltrice_01 = true,
-        ingred_scuttle_01 = true,
-        AB_IngCrea_GuarMeat_01 = true,
-        AB_IngCrea_HorseMeat01 = true,
-        AB_IngCrea_SfMeat_01 = true,
-        T_IngCrea_MeatDark_01 = true,
-        T_IngCrea_VelkNectarSack_01 = true,
-        potion_comberry_brandy_01 = true,
-        potion_comberry_wine_01 = true,
-        Potion_Local_Brew_01 = true,
-        potion_local_liquor_01 = true,
-        ingred_marshmerrow_01 = true,
+		
+		},
+	glass = {
+				Misc_DE_glass_green_01 = true,
+				misc_de_glass_yellow_01 = true,
+				misc_de_tankard_01 = true,
+		},
+	food = {
+		ingred_hound_meat_01 = true,
+		food_kwama_egg_01 = true,
+		food_kwama_egg_02 = true,
+		ingred_scrib_jelly_01 = true,
+		ingred_scrib_jerky_01 = true,
+		ingred_ash_yam_01 = true,
+		ingred_bread_01 = true,
+		ingred_bread_01_UNI2 = true,
+		ingred_bread_01_UNI3 = true,
+		ingred_crab_meat_01 = true,
+		ingred_durzog_meat_01 = true,
+		ingred_saltrice_01 = true,
+		ingred_scuttle_01 = true,
+		AB_IngCrea_GuarMeat_01 = true,
+		AB_IngCrea_HorseMeat01 = true,
+		AB_IngCrea_SfMeat_01 = true,
+		T_IngCrea_MeatDark_01 = true,
+		T_IngCrea_VelkNectarSack_01 = true,
+		potion_comberry_brandy_01 = true,
+		potion_comberry_wine_01 = true,
+		Potion_Local_Brew_01 = true,
+		potion_local_liquor_01 = true,
+		ingred_marshmerrow_01 = true,
 		T_We_Drink_PigmilkbeerJagga_01 = true,
 		["ingred_hackle-lo_leaf_01"] = true,
-                
-        },
-
-        cyrodimp = {
+				
+		},
+	cyrodimp = {
 		potion_cyro_brandy_01 = true,
 		Potion_Cyro_Whiskey_01 = true,
 		T_IngFlor_Cabbage_01 = true, 
@@ -1444,14 +1485,12 @@ local defaultConfig = {
 		silver_dukesguard_cuirass = true,
 		silver_helm = true,
    
-        },
-
-        illdrug = {
+		},
+	illdrug = {
 		potion_skooma_01 = true,
 		ingred_moon_sugar_01 = true,
-        },
-
-        nordimp = {
+	},
+	nordimp = {
 		potion_nord_mead = true,
 		["BM bear boots"] = true,
 		["BM bear cuirass"] = true,
@@ -1507,12 +1546,10 @@ local defaultConfig = {
 		["BM riekling sword_rusted"] = true,
 		["BM silver dagger wolfender"] = true,
 		["BM Winterwound Dagger"] = true,
-        },
-
-
-        enchanted = {},
-        
-        soulgem = {
+		},
+	enchanted = {
+	},
+	soulgem = {
 		Misc_SoulGem_Petty = true,
 		Misc_SoulGem_Lesser = true,
 		Misc_SoulGem_Common = true,
@@ -1520,223 +1557,223 @@ local defaultConfig = {
 		Misc_SoulGem_Grand = true,
 		Misc_SoulGem_Azura = true,
 		AB_Misc_SoulGemBlack = true,
-        }
+		}
 }
 
 local function isSmuggler(actor)
-        return actor.class.id == "Smuggler" or actor.class.id == "Necromancer" or (actor.faction and (actor.faction.id == "Thieves Guild" or actor.faction.id == "Camonna Tong" or actor.faction.id == "Ashlanders" or actor.faction.id == "Telvanni" or actor.faction.id == "T_Cyr_ThievesGuild" or actor.faction.id == "T_Mw_JaNattaSyndicate" or actor.faction.id == "T_Sky_ThievesGuild"))
+		return actor.class.id == "Smuggler" or actor.class.id == "Necromancer" or (actor.faction and (actor.faction.id == "Thieves Guild" or actor.faction.id == "Camonna Tong" or actor.faction.id == "Ashlanders" or actor.faction.id == "Telvanni" or actor.faction.id == "T_Cyr_ThievesGuild" or actor.faction.id == "T_Mw_JaNattaSyndicate" or actor.faction.id == "T_Sky_ThievesGuild"))
 end
 
 local function isDwemer(item)
-        return string.find(item.id, "dwrv") or string.find(item.id, "dwemer") or string.find(item.id, "dwarven") or string.find(item.id, "AB_*_dw") or string.startswith(item.id, "T_Dwe_") 
+		return string.find(item.id, "dwrv") or string.find(item.id, "dwemer") or string.find(item.id, "dwarven") or string.find(item.id, "AB_*_dw") or string.startswith(item.id, "T_Dwe_") 
 end
 
 local function isForbidden(item)
-        local mineral =  string.find(item.id, "raw_glass") or string.find(item.id, "raw_ebony")
-        local skooma = string.find(item.id, "potion_skooma") or string.find(item.id, "moon_sugar")
-        return mineral or skooma
+		local mineral =  string.find(item.id, "raw_glass") or string.find(item.id, "raw_ebony")
+		local skooma = string.find(item.id, "potion_skooma") or string.find(item.id, "moon_sugar")
+		return mineral or skooma
 end
 
 local function addCategoryToRegionExport(category, regions)
-        for _, region in ipairs(regions) do
-                if not defaultConfig[region] then
-                        defaultConfig[region] = {
-                                export = {},
-                                import = {}
-                        }
-                end
-                for item, status in pairs(defaultConfig[category]) do
-                        if defaultConfig[region].import[item] ~= true then
-                                defaultConfig[region].export[item] = true
-                        else
-                                defaultConfig[region].import[item] = nil
-                        end
-                end
-        end
+		for _, region in ipairs(regions) do
+				if not defaultConfig[region] then
+						defaultConfig[region] = {
+								export = {},
+								import = {}
+						}
+				end
+				for item, status in pairs(defaultConfig[category]) do
+						if defaultConfig[region].import[item] ~= true then
+								defaultConfig[region].export[item] = true
+						else
+								defaultConfig[region].import[item] = nil
+						end
+				end
+		end
 end
 
 local function addCategoryToRegionImport(category, regions)
-        for _, region in ipairs(regions) do
-                if not defaultConfig[region] then
-                        defaultConfig[region] = {
-                                export = {},
-                                import = {}
-                        }
-                end
-                for item, status in pairs(defaultConfig[category]) do
-                        if defaultConfig[region].export[item] ~= true then
-                                defaultConfig[region].import[item] = true
-                        else
-                                defaultConfig[region].export[item] = nil
-                        end
-                end
-        end
+		for _, region in ipairs(regions) do
+				if not defaultConfig[region] then
+						defaultConfig[region] = {
+								export = {},
+								import = {}
+						}
+				end
+				for item, status in pairs(defaultConfig[category]) do
+						if defaultConfig[region].export[item] ~= true then
+								defaultConfig[region].import[item] = true
+						else
+								defaultConfig[region].export[item] = nil
+						end
+				end
+		end
 end
 
 local function addRegionGoods(region, towns)
-        for _, town in ipairs(towns) do
-                if not defaultConfig[town] then
-                        defaultConfig[town] = {
-                                export = {
-                                },
-                                import = {
-                                }
-                        }
-                end
-                
-                for item, status in pairs(defaultConfig[region].export) do
-                        if status then
-                                if defaultConfig[town].export[item] ~= false then
-                                        defaultConfig[town].export[item] = status
-                                end
-                        end
-                end
-                
-                for item, status in pairs(defaultConfig[region].import) do
-                        if status then
-                                if defaultConfig[town].import[item] ~= false then
-                                        defaultConfig[town].import[item] = status
-                                end
-                        end
-                end
-        end
+		for _, town in ipairs(towns) do
+				if not defaultConfig[town] then
+						defaultConfig[town] = {
+								export = {
+								},
+								import = {
+								}
+						}
+				end
+				
+				for item, status in pairs(defaultConfig[region].export) do
+						if status then
+								if defaultConfig[town].export[item] ~= false then
+										defaultConfig[town].export[item] = status
+								end
+						end
+				end
+				
+				for item, status in pairs(defaultConfig[region].import) do
+						if status then
+								if defaultConfig[town].import[item] ~= false then
+										defaultConfig[town].import[item] = status
+								end
+						end
+				end
+		end
 end
 
 for obj in tes3.iterateObjects(tes3.objectType.npc) do
-        if isSmuggler(obj) then
-                defaultConfig.smuggler[obj.id] = true
-        end
+		if isSmuggler(obj) then
+				defaultConfig.smuggler[obj.id] = true
+		end
 end
 
 local itemTypes = { [tes3.objectType.alchemy] = true, [tes3.objectType.ammunition] = true, [tes3.objectType.apparatus] = true, [tes3.objectType.armor] = true, [tes3.objectType.book] = true, [tes3.objectType.clothing] = true, [tes3.objectType.ingredient] = true, [tes3.objectType.light] = true, [tes3.objectType.lockpick] = true, [tes3.objectType.miscItem] = true, [tes3.objectType.probe] = true, [tes3.objectType.repairItem] = true, [tes3.objectType.weapon] = true }        
 
 for obj in tes3.iterateObjects() do
-        if (itemTypes[obj.objectType]) then
-                if isDwemer(obj) then
-                        defaultConfig.dwemer[obj.id] = true
-                        defaultConfig.forbidden[obj.id] = true
-                elseif isForbidden(obj) then
-                        defaultConfig.forbidden[obj.id] = true
-                end
-        end
+		if (itemTypes[obj.objectType]) then
+				if isDwemer(obj) then
+						defaultConfig.dwemer[obj.id] = true
+						defaultConfig.forbidden[obj.id] = true
+				elseif isForbidden(obj) then
+						defaultConfig.forbidden[obj.id] = true
+				end
+		end
 end
 
 for clot in tes3.iterateObjects(tes3.objectType.clothing) do
-        if string.startswith(clot.id, "T_De_Ex_") or string.startswith(clot.id, "T_De_UNI_") or string.startswith(clot.id, "T_Nor_Ex_") or string.startswith(clot.id, "T_Imp_Ex_") or string.startswith(clot.id, "T_Com_Ex_") or string.startswith(clot.id, "T_Com_UNI_") or string.startswith(clot.id, "exquisite_") then
-                defaultConfig.luxury[clot.id] = true
-        end
+		if string.startswith(clot.id, "T_De_Ex_") or string.startswith(clot.id, "T_De_UNI_") or string.startswith(clot.id, "T_Nor_Ex_") or string.startswith(clot.id, "T_Imp_Ex_") or string.startswith(clot.id, "T_Com_Ex_") or string.startswith(clot.id, "T_Com_UNI_") or string.startswith(clot.id, "exquisite_") then
+				defaultConfig.luxury[clot.id] = true
+		end
 end
 
 for book in tes3.iterateObjects(tes3.objectType.book) do
-        if book.skill >= 0 then
-                defaultConfig.skillBooks[book.id] = true
-        end
+		if book.skill >= 0 then
+				defaultConfig.skillBooks[book.id] = true
+		end
 end
 
 for ingred in tes3.iterateObjects(tes3.objectType.ingredient) do
-        if string.startswith(ingred.id, "AB_IngFood_") or string.startswith(ingred.id, "T_IngFood_") then
-                defaultConfig.food[ingred.id] = true
-        end
+		if string.startswith(ingred.id, "AB_IngFood_") or string.startswith(ingred.id, "T_IngFood_") then
+				defaultConfig.food[ingred.id] = true
+		end
 end
 
 
 
 for potion in tes3.iterateObjects(tes3.objectType.alchemy) do
-        if string.startswith(potion.id, "AB_dri_") then
-                defaultConfig.food[potion.id] = true
-        end
+		if string.startswith(potion.id, "AB_dri_") then
+				defaultConfig.food[potion.id] = true
+		end
 end
 
 
 for potion in tes3.iterateObjects(tes3.objectType.alchemy) do
-        if string.startswith(potion.id, "T_Nor_Drink_") then
-                defaultConfig.nordimp[potion.id] = true
-        end
+		if string.startswith(potion.id, "T_Nor_Drink_") then
+				defaultConfig.nordimp[potion.id] = true
+		end
 end
 
 for armo in tes3.iterateObjects(tes3.objectType.armor) do
-        if string.startswith(armo.id, "T_Nor_") or string.startswith(armo.id, "BM_") or string.startswith(armo.id, "fur_") or string.startswith(armo.id, "nordic_") then
-                defaultConfig.nordimp[armo.id] = true
-        end
+		if string.startswith(armo.id, "T_Nor_") or string.startswith(armo.id, "BM_") or string.startswith(armo.id, "fur_") or string.startswith(armo.id, "nordic_") then
+				defaultConfig.nordimp[armo.id] = true
+		end
 end
 
 for weap in tes3.iterateObjects(tes3.objectType.weapon) do
-        if string.startswith(weap.id, "T_Nor_") or string.startswith(weap.id, "BM_") then
-                defaultConfig.nordimp[weap.id] = true
-        end
+		if string.startswith(weap.id, "T_Nor_") or string.startswith(weap.id, "BM_") then
+				defaultConfig.nordimp[weap.id] = true
+		end
 end
 
 for misc in tes3.iterateObjects(tes3.objectType.miscItem) do
-        if string.startswith(misc.id, "T_Nor_") then
-                defaultConfig.nordimp[misc.id] = true
-        end
+		if string.startswith(misc.id, "T_Nor_") then
+				defaultConfig.nordimp[misc.id] = true
+		end
 end
 
 
 
 
 for armo in tes3.iterateObjects(tes3.objectType.armor) do
-        if string.startswith(armo.id, "daedric_") or string.startswith(armo.id, "glass_") or string.startswith(armo.id, "T_Ayl_") or string.startswith(armo.id, "T_Dae_") or string.startswith(armo.id, "ebony_") or string.startswith(armo.id, "T_He_Direnni_") or string.startswith(armo.id, "T_De_NativeEbony_") then
-                defaultConfig.daedra[armo.id] = true
-        end
+		if string.startswith(armo.id, "daedric_") or string.startswith(armo.id, "glass_") or string.startswith(armo.id, "T_Ayl_") or string.startswith(armo.id, "T_Dae_") or string.startswith(armo.id, "ebony_") or string.startswith(armo.id, "T_He_Direnni_") or string.startswith(armo.id, "T_De_NativeEbony_") then
+				defaultConfig.daedra[armo.id] = true
+		end
 end
 
 for weap in tes3.iterateObjects(tes3.objectType.weapon) do
-        if string.startswith(weap.id, "T_Dae_") or string.startswith(weap.id, "AB_w_Dae") or string.startswith(weap.id, "T_Ayl_") or string.startswith(weap.id, "T_De_Ebony") or string.startswith(weap.id, "T_De_Glass") or string.startswith(weap.id, "T_De_Ebony_") then
-                defaultConfig.daedra[weap.id] = true
-        end
+		if string.startswith(weap.id, "T_Dae_") or string.startswith(weap.id, "AB_w_Dae") or string.startswith(weap.id, "T_Ayl_") or string.startswith(weap.id, "T_De_Ebony") or string.startswith(weap.id, "T_De_Glass") or string.startswith(weap.id, "T_De_Ebony_") then
+				defaultConfig.daedra[weap.id] = true
+		end
 end
 
 
 
 
 for potion in tes3.iterateObjects(tes3.objectType.alchemy) do
-        if string.startswith(potion.id, "T_Imp_Drink_") or string.startswith(potion.id, "T_Bre_Drink_") then
-                defaultConfig.cyrodimp[potion.id] = true
-        end
+		if string.startswith(potion.id, "T_Imp_Drink_") or string.startswith(potion.id, "T_Bre_Drink_") then
+				defaultConfig.cyrodimp[potion.id] = true
+		end
 end
 
 for ingred in tes3.iterateObjects(tes3.objectType.ingredient) do
-        if string.startswith(ingred.id, "T_IngSpice_") then
-                defaultConfig.cyrodimp[ingred.id] = true
-        end
+		if string.startswith(ingred.id, "T_IngSpice_") then
+				defaultConfig.cyrodimp[ingred.id] = true
+		end
 end
 
 for armo in tes3.iterateObjects(tes3.objectType.armor) do
-        if string.startswith(armo.id, "T_Imp_") or string.startswith(armo.id, "imperial_") or string.startswith(armo.id, "AB_a_Imp") or string.startswith(armo.id, "dragonscale_") then
-                defaultConfig.cyrodimp[armo.id] = true
-        end
+		if string.startswith(armo.id, "T_Imp_") or string.startswith(armo.id, "imperial_") or string.startswith(armo.id, "AB_a_Imp") or string.startswith(armo.id, "dragonscale_") then
+				defaultConfig.cyrodimp[armo.id] = true
+		end
 end
 
 for weap in tes3.iterateObjects(tes3.objectType.weapon) do
-        if string.startswith(weap.id, "T_Imp_") or string.startswith(weap.id, "imperial_") or string.startswith(weap.id, "AB_w_Imp") or string.startswith(weap.id, "T_Bre_") then
-                defaultConfig.cyrodimp[weap.id] = true
-        end
+		if string.startswith(weap.id, "T_Imp_") or string.startswith(weap.id, "imperial_") or string.startswith(weap.id, "AB_w_Imp") or string.startswith(weap.id, "T_Bre_") then
+				defaultConfig.cyrodimp[weap.id] = true
+		end
 end
 
 for misc in tes3.iterateObjects(tes3.objectType.miscItem) do
-        if string.startswith(misc.id, "T_Imp_") or string.startswith(misc.id, "misc_imp_") then
-                defaultConfig.cyrodimp[misc.id] = true
-        end
+		if string.startswith(misc.id, "T_Imp_") or string.startswith(misc.id, "misc_imp_") then
+				defaultConfig.cyrodimp[misc.id] = true
+		end
 end
 
 for misc in tes3.iterateObjects(tes3.objectType.miscItem) do
-        if string.startswith(misc.id, "AB_Misc_DeBlue") or string.startswith(misc.id, "AB_Misc_DeEbony") or string.startswith(misc.id, "AB_Misc_DeGreen") or string.startswith(misc.id, "AB_Misc_DePeach") or string.startswith(misc.id, "AB_Misc_DeYel") or string.startswith(misc.id, "misc_com_bottle") or string.startswith(misc.id, "misc_de_goblet") then
-                defaultConfig.glass[misc.id] = true
-        elseif string.startswith(misc.id, "misc_com_redware") or string.startswith(misc.id, "misc_com_plate") or string.startswith(misc.id, "misc_de_bowl_redware") or string.startswith(misc.id, "misc_de_pot_redware") or string.startswith(misc.id, "AB_Misc_DeYel") then
-                defaultConfig.pottery[misc.id] = true
-        end
+		if string.startswith(misc.id, "AB_Misc_DeBlue") or string.startswith(misc.id, "AB_Misc_DeEbony") or string.startswith(misc.id, "AB_Misc_DeGreen") or string.startswith(misc.id, "AB_Misc_DePeach") or string.startswith(misc.id, "AB_Misc_DeYel") or string.startswith(misc.id, "misc_com_bottle") or string.startswith(misc.id, "misc_de_goblet") then
+				defaultConfig.glass[misc.id] = true
+		elseif string.startswith(misc.id, "misc_com_redware") or string.startswith(misc.id, "misc_com_plate") or string.startswith(misc.id, "misc_de_bowl_redware") or string.startswith(misc.id, "misc_de_pot_redware") or string.startswith(misc.id, "AB_Misc_DeYel") then
+				defaultConfig.pottery[misc.id] = true
+		end
 end
 
 local enchantedLvlLists = {"l_m_enchantitem_telvanni_rank01", "l_m_enchantitem_telvanni_rank6", "l_m_enchantitem_telvanni_rank8"}
 
 
 for i, leveledItem in ipairs(enchantedLvlLists) do
-        leveledItem = tes3.getObject(leveledItem)
-        for _, listNode in ipairs(leveledItem.list) do
-                local item = listNode.object
-                defaultConfig.enchanted[item.id] = true
-        end
+		leveledItem = tes3.getObject(leveledItem)
+		for _, listNode in ipairs(leveledItem.list) do
+				local item = listNode.object
+				defaultConfig.enchanted[item.id] = true
+		end
 end
 
 addRegionGoods("West Gash Region", {"Balmora", "Caldera", "Gnisis", "Khuul", "Ald Velothi"})
